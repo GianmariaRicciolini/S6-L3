@@ -1,0 +1,31 @@
+@import "./resets.scss";
+@import "./fonts.scss";
+@import "./colors.scss";
+@import "./spaziature.scss";
+@import "./bottoni.scss";
+@import "./mixins.scss";
+@import "./animazioni.scss";
+
+nav {
+  display: flex;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+}
+
+.image {
+  display: flex;
+}
+
+.image div {
+  width: 20%;
+  height: 209px;
+  overflow: hidden;
+}
